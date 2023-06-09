@@ -78,7 +78,7 @@
               <a href="https://scholar.google.com/citations?user=2NehWz0AAAAJ&hl=zh-CN">Haojie Pan</a>,
               Xiangyu Wu,
               Ximan Liu,
-              <a href="https://scholar.google.com/citations?user=5hti_r0AAAAJ&hl=zh-CN">Gaofeng Meng</a>,
+              <a href="https://scholar.google.com/citations?user=5hti_r0AAAAJ&hl=zh-CN">Gaofeng Meng*</a>,
               Fan Yang,
               Tingting Gao,
               <a href="https://scholar.google.com/citations?user=vhCLl50AAAAJ&hl=en">Ruiji Fu</a>,
@@ -94,7 +94,43 @@
           </tr>
 
 
+	<tr onmouseout="cikm_stop()" onmouseover="cikm_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cikm_image'><img src='images/cikm_all.png' width="160" ></div>
+                <img src='images/cikm_all.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function cikm_start() {
+                  document.getElementById('cikm_image').style.opacity = "1";
+                }
 
+                function cikm_stop() {
+                  document.getElementById('cikm_image').style.opacity = "0";
+                }
+                cikm_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2211.10624">
+                <papertitle>ContentCTR: Frame-level Live Streaming Click-Through Rate Prediction with Multimodal Transformer</papertitle>
+              </a>
+              <br>
+              <strong>Jiaxin Deng</strong>,
+              Dong Shen,
+              <a href="https://scholar.google.com/citations?user=YdEpCI4AAAAJ&hl=en">Shiyao Wang</a>,
+              Fan Yang,
+              Xiangyu Wu,
+              Fan Yang,
+              <a href="https://scholar.google.com/citations?user=n_E0Bg4AAAAJ&hl=en">Guorui Zhou</a>,
+              <a href="https://scholar.google.com/citations?user=5hti_r0AAAAJ&hl=zh-CN">Gaofeng Meng*</a>
+              <br>
+              <em>This paper has been submitted to CIKM'23.</em>
+              <br>
+              <p></p>
+              <p>We proposed a ContentCTR model that leverages multimodal transformer for frame-level CTR prediction. First, we present an end-to-end framework that can make full use of multimodal information, including visual frames, audio, and comments, to identify the most attractive live frames. Second, to prevent the model from collapsing into a mediocre solution, a novel pairwise loss function with first-order difference constraints is proposed to utilize the contrastive information existing in the highlight and non-highlight frames. Additionally, we design a temporal text-video alignment module based on Dynamic Time Warping to eliminate noise caused by the ambiguity and non-sequential alignment of visual and textual information.</p>
+            </td>
+          </tr>
 
 
         </tbody></table>
