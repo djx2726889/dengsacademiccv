@@ -94,7 +94,7 @@
             </td>
           </tr>
 
-<!-- 
+
 	<tr onmouseout="cikm_stop()" onmouseover="cikm_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -114,23 +114,24 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2306.14392">
-                <papertitle>ContentCTR: Frame-level Live Streaming Click-Through Rate Prediction with Multimodal Transformer</papertitle>
+                <papertitle>A Multimodal Transformer for Live Streaming Highlight Prediction</papertitle>
               </a>
               <br>
               <strong>Jiaxin Deng</strong>,
+	      Shiyao Wang,
               Dong Shen,
               <a href="https://scholar.google.com/citations?user=YdEpCI4AAAAJ&hl=en">Shiyao Wang</a>,
-              Xiangyu Wu,
+              Liqin Zhao,
               Fan Yang,
               <a href="https://scholar.google.com/citations?user=n_E0Bg4AAAAJ&hl=en">Guorui Zhou</a>,
               <a href="https://scholar.google.com/citations?user=5hti_r0AAAAJ&hl=zh-CN">Gaofeng Meng*</a>
               <br>
-              <em>This paper has been submitted to CIKM'23.</em>
+              <em>ICME, 2024.</em>
               <br>
               <p></p>
-              <p>We proposed a ContentCTR model that leverages multimodal transformer for frame-level CTR prediction. First, we present an end-to-end framework that can make full use of multimodal information, including visual frames, audio, and comments, to identify the most attractive live frames. Second, to prevent the model from collapsing into a mediocre solution, a novel pairwise loss function with first-order difference constraints is proposed to utilize the contrastive information existing in the highlight and non-highlight frames. Additionally, we design a temporal text-video alignment module based on Dynamic Time Warping to eliminate noise caused by the ambiguity and non-sequential alignment of visual and textual information.</p>
+              <p>Recently, live streaming platforms have gained immense popularity. Traditional video highlight detection mainly focuses on visual features and utilizes both past and future content for prediction. However, live streaming requires models to infer without future frames and process complex multimodal interactions, including images, audio and text comments. To address these issues, we propose a multimodal transformer that incorporates historical look-back windows. We introduce a novel Modality Temporal Alignment Module to handle the temporal shift of cross-modal signals. Additionally, using existing datasets with limited manual annotations is insufficient for live streaming whose topics are constantly updated and changed. Therefore, we propose a novel Border-aware Pairwise Loss to learn from a large-scale dataset and utilize user implicit feedback as a weak supervision signal. Extensive experiments show our model outperforms various strong baselines on both real-world scenarios and public datasets. And we will release our dataset and code to better assess this topic.</p>
             </td>
-          </tr> -->
+          </tr>
 
 
         </tbody></table>
