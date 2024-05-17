@@ -50,6 +50,45 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+	<tr onmouseout="cikm_stop()" onmouseover="cikm_start()" >
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cikm_image'><img src='images/kddfinal.jpg' width="180" ></div>
+                <img src='images/kddfinal.jpg' width="180">
+              </div>
+              <script type="text/javascript">
+                function cikm_start() {
+                  document.getElementById('cikm_image').style.opacity = "1";
+                }
+
+                function cikm_stop() {
+                  document.getElementById('cikm_image').style.opacity = "0";
+                }
+                cikm_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.dropbox.com/s/x9elxihl071mibk/KDD2024.pdf?dl=0">
+                <papertitle>MMBee: Live Streaming Gift-Sending Recommendations via Multi-Modal Fusion and Behaviour Expansion</papertitle>
+              </a>
+              <br>
+              <strong>Jiaxin Deng</strong>,
+	      <a href="https://scholar.google.com/citations?user=YdEpCI4AAAAJ&hl=en">Shiyao Wang</a>,
+              Yuchen Wang,
+	      Jiansong Qi,
+              Liqin Zhao,
+              <a href="https://scholar.google.com/citations?user=n_E0Bg4AAAAJ&hl=en">Guorui Zhou</a>,
+              <a href="https://scholar.google.com/citations?user=5hti_r0AAAAJ&hl=zh-CN">Gaofeng Meng*</a>
+              <br>
+              <em>KDD</em>, 2024 &nbsp <font color="red"><strong>(Just Accepted!)</strong></font>
+              <br>
+	      <a >paper</a> /
+	      <a >slides</a> /
+              <a >video</a> 
+              <p></p>
+              <p>Live streaming services are becoming increasingly popular due to real-time interactions and entertainment. Viewers can chat and send comments or virtual gifts to express their preferences for the streamers. Accurately modeling the gifting interaction not only enhances users' experience but also increases streamers' revenue. Previous studies on live streaming gifting prediction treat this task as a conventional recommendation problem, and model users' preferences using categorical data and observed historical behaviors. However, it is challenging to precisely describe the real-time content changes in live streaming using limited categorical information. Moreover, due to the sparsity of gifting behaviors, capturing the preferences and intentions of users is quite difficult. In this work, we propose MMBee based on real-time Multi-Modal Fusion and Behaviour Expansion to address these issues. Specifically, we first present a Multi-modal Fusion Module with Learnable Query (MFQ) to perceive the dynamic content of streaming segments and process complex multi-modal interactions, including images, text comments and speech. To alleviate the sparsity issue of gifting behaviors, we present a novel Graph-guided Interest Expansion (GIE) approach that learns both user and streamer representations on large-scale gifting graphs with multi-modal attributes. It consists of two main parts: graph node representations pre-training and metapath-based behavior expansion, all of which help model jump out of the specific historical gifting behaviors for exploration and largely enrich the behavior representations.Comprehensive experiment results show that MMBee achieves significant performance improvements on both public datasets and Kuaishou real-world streaming datasets and the effectiveness has been further validated through online A/B experiments. MMBee has been deployed and is serving hundreds of millions of users at Kuaishou.</p>
+            </td>
+          </tr>
 
 	<tr onmouseout="cikm_stop()" onmouseover="cikm_start()" >
             <td style="padding:20px;width:25%;vertical-align:middle">
